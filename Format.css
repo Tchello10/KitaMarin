@@ -1,0 +1,31 @@
+p{
+    color: red;
+    font-size: 2em;
+}
+
+li{
+    color: deeppink;
+    font-style: oblique;
+    font-family: sans-serif;
+}
+
+h1.linhaBonitona{
+    color: aquamarine;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h2.linhaBonitona{
+    color: rgb(255, 0, 255);
+}
+
+
+li.bonitona{
+    color: aqua;
+}
+
+h1{
+    color: blueviolet;
+    font-size: 2em;
+}
+
