@@ -1,6 +1,7 @@
 p{
     color: red;
     font-size: 2em;
+    text-align: center;
 }
 
 li{
@@ -13,18 +14,12 @@ h1.linhaBonitona{
     color: aquamarine;
     font-style: italic;
     font-family: 'Courier New', Courier, monospace;
-}
-
-
-h1.center{
-    margin: auto;
-    width: 50%;
-    border: 3px black;
-    padding: 10px;
+    text-align: center;
 }
 
 h2.linhaBonitona{
     color: rgb(255, 0, 255);
+    text-align: center;
 }
 
 
@@ -35,5 +30,6 @@ li.bonitona{
 h1{
     color: blueviolet;
     font-size: 2em;
+    text-align: center;
 }
 
