@@ -1,29 +1,23 @@
-p {
-  color: red;
-  font-size: 2em;
-  text-align: center;
-}
-
 li {
-  color: deeppink;
+  color: rgb(63, 20, 255);
   font-style: oblique;
   font-family: sans-serif;
   text-align: center;
 }
 
-h1.linhaBonitona {
-  color: aquamarine;
+h1.mainDefinition {
+  color: rgb(72, 255, 0);
   font-style: italic;
   font-family: "Courier New", Courier, monospace;
   text-align: center;
 }
 
-h2.linhaBonitona {
+h2.mainDefinition {
   color: rgb(255, 0, 255);
   text-align: center;
 }
 
-li.bonitona {
+.listDesign {
   color: aqua;
 }
 
