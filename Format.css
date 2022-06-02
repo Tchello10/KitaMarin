@@ -38,3 +38,7 @@ img {
 div.centralizaDiv {
   align-self: center;
 }
+
+.bg {
+  background-color: rgb(59, 59, 59);
+}
