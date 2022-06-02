@@ -47,8 +47,8 @@ img {
 }
 
 .centralizaFotos {
-  width: auto;
-  height: auto;
+  width: 30px auto;
+  height: 30px auto;
   display: table;
   margin: 30px auto;
   text-align: center;
