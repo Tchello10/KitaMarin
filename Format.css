@@ -36,8 +36,19 @@ img {
 }
 
 .centralizaDiv {
-  width: 400px;
-  height: 600px;
+  width: 30px auto;
+  height: 30px auto;
+  display: table;
+  margin: 30px auto;
+  text-align: center;
+  background-color: gray;
+  border-radius: 8px;
+  box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.centralizaFotos {
+  width: auto;
+  height: auto;
   display: table;
   margin: 30px auto;
   text-align: center;
