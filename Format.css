@@ -35,8 +35,15 @@ img {
   width: 40%;
 }
 
-div.centralizaDiv {
-  align-self: center;
+.centralizaDiv {
+  width: 400px;
+  height: 600px;
+  display: table;
+  margin: 30px auto;
+  text-align: center;
+  background-color: gray;
+  border-radius: 8px;
+  box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.15);
 }
 
 .bg {
