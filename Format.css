@@ -40,6 +40,6 @@ img {
   width: 40%;
 }
 
-.centralizaDiv {
+div.centralizaDiv {
   align-self: center;
 }
