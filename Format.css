@@ -1,42 +1,45 @@
-p{
-    color: red;
-    font-size: 2em;
-    text-align: center;
+p {
+  color: red;
+  font-size: 2em;
+  text-align: center;
 }
 
-li{
-    color: deeppink;
-    font-style: oblique;
-    font-family: sans-serif;
-    text-align: center;
+li {
+  color: deeppink;
+  font-style: oblique;
+  font-family: sans-serif;
+  text-align: center;
 }
 
-h1.linhaBonitona{
-    color: aquamarine;
-    font-style: italic;
-    font-family: 'Courier New', Courier, monospace;
-    text-align: center;
+h1.linhaBonitona {
+  color: aquamarine;
+  font-style: italic;
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
 }
 
-h2.linhaBonitona{
-    color: rgb(255, 0, 255);
-    text-align: center;
+h2.linhaBonitona {
+  color: rgb(255, 0, 255);
+  text-align: center;
 }
 
-
-li.bonitona{
-    color: aqua;
+li.bonitona {
+  color: aqua;
 }
 
-h1{
-    color: blueviolet;
-    font-size: 2em;
-    text-align: center;
+h1 {
+  color: blueviolet;
+  font-size: 2em;
+  text-align: center;
 }
 
-img{
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    width: 40%;
+img {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+.centralizaDiv {
+  align-self: center;
 }
