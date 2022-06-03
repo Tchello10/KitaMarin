@@ -58,7 +58,7 @@ img {
 }
 
 .bg {
-  background-color: rgb(59, 59, 59);
+  background-image: linear-gradient(rgb(0, 212, 0), rgb(255, 40, 190));
 }
 
 .configuraBorda {
