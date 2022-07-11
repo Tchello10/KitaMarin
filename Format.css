@@ -65,7 +65,7 @@ img {
 }
 
 .bg {
-  background-image: url(content/BG01.jpg);
+  background-image: url(Content/BG01.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
