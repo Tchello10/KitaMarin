@@ -2,6 +2,8 @@ li {
   color: rgb(143, 118, 255);
   font-family: sans-serif;
   text-align: center;
+  margin: 10px;
+  object-position: 50% 50%;
 }
 
 h1.mainDefinition {
@@ -11,8 +13,9 @@ h1.mainDefinition {
 }
 
 h2.mainDefinition {
-  color: rgb(139, 0, 139);
+  color: rgb(255, 255, 255);
   text-align: center;
+  margin: 30px;
 }
 
 .listDesign {
@@ -49,12 +52,14 @@ img {
 }
 
 .centralizaFotos {
-  width: 30px auto;
-  height: 30px auto;
+  width: 3px auto;
+  height: 3px auto;
   display: table;
-  margin: 30px auto;
+  margin: 3px auto;
   text-align: center;
-  background-color: gray;
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
   border-radius: 8px;
   box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.15);
 }
@@ -66,10 +71,12 @@ img {
 }
 
 .configuraBorda {
-  width: 30px auto;
-  height: 30px auto;
+  width: 360px;
+  height: 640px;
+  object-fit: cover;
+  object-position: 50% 50%;
   display: table;
-  margin: 30px auto;
+  margin: 3px auto;
   border-radius: 8px;
   box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.15);
 }
