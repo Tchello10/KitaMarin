@@ -41,7 +41,9 @@ img {
   display: table;
   margin: 30px auto;
   text-align: center;
-  background-color: gray;
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
   border-radius: 8px;
   box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.15);
 }
@@ -58,7 +60,9 @@ img {
 }
 
 .bg {
-  background-image: linear-gradient(rgb(0, 212, 0), rgb(255, 40, 190));
+  background-image: url(content/BG01.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .configuraBorda {
