@@ -1,0 +1,104 @@
+li {
+  color: rgb(143, 118, 255);
+  font-family: sans-serif;
+  text-align: center;
+  margin: 10px;
+  object-position: 50% 50%;
+}
+
+li .lista-alinhada {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+h1.mainDefinition {
+  color: rgb(72, 255, 0);
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+}
+
+h2.mainDefinition {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  margin: 30px;
+}
+
+.listDesign {
+  color: aqua;
+  text-align: left;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: "bold";
+}
+
+h1 {
+  color: blueviolet;
+  font-size: 2em;
+  text-align: center;
+}
+
+img {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+
+.centralizaDiv {
+  width: 30px auto;
+  height: 30px auto;
+  display: table;
+  margin: 30px auto;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 8px;
+  box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.centralizaFotos {
+  width: 3px auto;
+  height: 3px auto;
+  display: table;
+  margin: 3px auto;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 8px;
+  box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.bg {
+  background-image: url(Content/BG01.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.configuraBorda {
+  width: 360px;
+  height: 640px;
+  object-fit: cover;
+  object-position: 50% 50%;
+  display: table;
+  margin: 30px auto;
+  border-radius: 8px;
+  box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* 
+  .scroll-line {
+    background: linear-gradient(
+        217deg,
+        rgba(255, 0, 0, 0.8),
+        rgba(255, 0, 0, 0) 70.71%
+      ),
+      linear-gradient(127deg, rgba(0, 255, 0, 0.8), rgba(0, 255, 0, 0) 70.71%),
+      linear-gradient(336deg, rgba(0, 0, 255, 0.8), rgba(0, 0, 255, 0) 70.71%);
+    top: 0;
+    left: 0;
+    height: 10px;
+    position: fixed;
+    transition: 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+  } */
