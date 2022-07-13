@@ -74,16 +74,17 @@ img {
   background-image: url(../Content/BG01.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
+  background-size: cover;
 }
 
-@media only screen and (max-width: 480px) {
+/* @media only screen and (max-width: 480px) {
   .bg {
     background-image: url(../Content/BG01.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: auto 100%;
+    background-size: cover;
   }
-}
+} */
 
 .configuraBorda {
   width: 360px;
