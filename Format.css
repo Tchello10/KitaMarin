@@ -6,6 +6,12 @@ li {
   object-position: 50% 50%;
 }
 
+li .lista-alinhada {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
 h1.mainDefinition {
   color: rgb(72, 255, 0);
   font-family: "Courier New", Courier, monospace;
@@ -81,6 +87,7 @@ img {
   box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.15);
 }
 
+/* 
 .scroll-line {
   background: linear-gradient(
       217deg,
@@ -94,4 +101,4 @@ img {
   height: 10px;
   position: fixed;
   transition: 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
-}
+} */
