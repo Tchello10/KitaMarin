@@ -81,7 +81,7 @@ img {
     background-image: url(../Content/BG01.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: cover;
+    background-size: 100%;
   }
 }
 
