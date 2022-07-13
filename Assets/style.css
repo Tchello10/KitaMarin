@@ -76,6 +76,15 @@ img {
   background-attachment: fixed;
 }
 
+@media only screen and (max-width: 600px) {
+  .bg {
+    background-image: url(../Content/BG01.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+}
+
 .configuraBorda {
   width: 360px;
   height: 640px;
