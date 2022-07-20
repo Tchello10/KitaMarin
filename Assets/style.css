@@ -20,6 +20,7 @@ h1.mainDefinition {
 
 h2.mainDefinition {
   color: rgb(255, 255, 255);
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.534);
   text-align: center;
   margin: 30px;
 }
@@ -27,6 +28,7 @@ h2.mainDefinition {
 .listDesign {
   color: aqua;
   text-align: left;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.534);
   font-family: "Courier New", Courier, monospace;
   font-weight: "bold";
 }
@@ -54,7 +56,6 @@ img {
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   border-radius: 8px;
-  box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.15);
 }
 
 .centralizaFotos {
@@ -67,7 +68,6 @@ img {
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   border-radius: 8px;
-  box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.15);
 }
 
 .bg {
@@ -77,24 +77,26 @@ img {
   background-size: cover;
 }
 
-/* @media only screen and (max-width: 480px) {
+@media only screen and (max-width: 480px) {
   .bg {
-    background-image: url(../Content/BG01.jpg);
+    background-image: url(../Content/JellyWelly.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
   }
-} */
+}
 
 .configuraBorda {
   width: 360px;
   height: 640px;
   object-fit: cover;
   object-position: 50% 50%;
-  display: table;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
   margin: 30px auto;
   border-radius: 8px;
-  box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.15);
+  box-shadow: 8px 8px 2px rgba(0, 0, 0, 0.534);
 }
 
 /* 
