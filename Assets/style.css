@@ -8,7 +8,7 @@ li {
 
 li .lista-alinhada {
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: nowrap;
   justify-content: center;
 }
 
@@ -47,7 +47,7 @@ img {
 }
 
 .centralizaDiv {
-  width: 30px auto;
+  width: 85%;
   height: 30px auto;
   display: table;
   margin: 30px auto;
@@ -83,6 +83,12 @@ img {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+  }
+
+  .centralizaDiv {
+    width: 100%;
+    height: auto;
+    border: 0px;
   }
 }
 
