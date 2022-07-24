@@ -1,3 +1,4 @@
+/* Animações */
 @keyframes animaCenter {
   from {
     border-style: solid;
@@ -17,69 +18,10 @@
   }
 }
 
+/* main styles */
 body {
   margin: 0px;
   padding: 0px;
-}
-
-li {
-  color: rgb(143, 118, 255);
-  font-family: sans-serif;
-  text-align: center;
-  margin: 10px;
-  object-position: 50% 50%;
-}
-
-h1.mainDefinition {
-  color: rgb(72, 255, 0);
-  font-family: "Courier New", Courier, monospace;
-  text-align: center;
-}
-
-h2.mainDefinition {
-  color: rgb(255, 255, 255);
-  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.534);
-  text-align: center;
-  margin: 30px;
-}
-
-.listDesign {
-  color: aqua;
-  text-align: left;
-  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.534);
-  font-family: "Courier New", Courier, monospace;
-  font-weight: "bold";
-}
-
-h1 {
-  color: blueviolet;
-  font-size: 2em;
-  text-align: center;
-}
-
-img {
-  display: flex;
-  margin-left: auto;
-  margin-right: auto;
-  width: 60%;
-}
-
-.centralizaDiv {
-  width: 85%;
-  height: 30px auto;
-  display: table;
-  margin: 30px auto;
-  text-align: center;
-  animation: animaCenter 3s forwards;
-}
-
-.centralizaFotos {
-  width: 3px auto;
-  height: 3px auto;
-  display: table;
-  margin: 3px auto;
-  text-align: center;
-  animation: animaCenter 3s forwards;
 }
 
 .bg {
@@ -89,22 +31,50 @@ img {
   background-size: cover;
 }
 
-@media only screen and (max-width: 960px) {
-  .bg {
-    background-image: url(../Content/JellyWelly.png);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-  }
-
-  .centralizaDiv {
-    width: 100%;
-    height: auto;
-    border: 0px;
-  }
+h1 {
+  color: #c822ac;
+  font-size: 2em;
+  text-align: center;
 }
 
-.configuraBorda {
+h1.main-layout {
+  font-size: 40px;
+  color: rgb(72, 255, 0);
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.534);
+}
+
+h2.main-layout {
+  color: rgb(255, 255, 255);
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.534);
+  text-align: center;
+  margin: 30px;
+}
+
+h2.support-layout {
+  font-size: 30px;
+  color: #c822ac;
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.534);
+}
+
+p.running-text {
+  color: rgb(255, 255, 255);
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.534);
+  text-align: left;
+  margin: 30px;
+}
+
+img {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+
+img.image-style {
   width: 360px;
   height: 640px;
   object-fit: cover;
@@ -117,18 +87,47 @@ img {
   box-shadow: 8px 8px 2px rgba(0, 0, 0, 0.534);
 }
 
-/* 
-  .scroll-line {
-    background: linear-gradient(
-        217deg,
-        rgba(255, 0, 0, 0.8),
-        rgba(255, 0, 0, 0) 70.71%
-      ),
-      linear-gradient(127deg, rgba(0, 255, 0, 0.8), rgba(0, 255, 0, 0) 70.71%),
-      linear-gradient(336deg, rgba(0, 0, 255, 0.8), rgba(0, 0, 255, 0) 70.71%);
-    top: 0;
-    left: 0;
-    height: 10px;
-    position: fixed;
-    transition: 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
-  } */
+div.centraliza-div {
+  width: 85%;
+  height: 30px auto;
+  display: table;
+  margin: 30px auto;
+  text-align: center;
+  animation: animaCenter 3s forwards;
+}
+
+div.central-content {
+  width: 3px auto;
+  height: 3px auto;
+  display: table;
+  margin: 3px auto;
+  text-align: center;
+  animation: animaCenter 3s forwards;
+}
+
+/* Linkage style */
+a {
+  color: rgb(72, 255, 0);
+  text-decoration: none;
+}
+
+a:visited {
+  color: #c822ac;
+  text-decoration: none;
+}
+
+/* Responsiveness */
+@media only screen and (max-width: 960px) {
+  .bg {
+    background-image: url(../Content/BG03_Phone.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+
+  .centralizaDiv {
+    width: 100%;
+    height: auto;
+    border: 0px;
+  }
+}
