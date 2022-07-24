@@ -18,7 +18,7 @@
   }
 }
 
-/* main styles */
+/* Body, main e bg */
 body {
   margin: 0px;
   padding: 0px;
@@ -31,6 +31,28 @@ body {
   background-size: cover;
 }
 
+/* Divs */
+div.centraliza-div {
+  width: 75%;
+  height: 30px auto;
+  display: table;
+  margin: 30px auto;
+  text-align: center;
+  animation: animaCenter 3s forwards;
+}
+
+div.central-content {
+  width: 50%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 3px auto;
+  text-align: center;
+  animation: animaCenter 3s forwards;
+}
+
+/* Headlines */
 h1 {
   color: #c822ac;
   font-size: 2em;
@@ -49,7 +71,7 @@ h2.main-layout {
   color: rgb(255, 255, 255);
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.534);
   text-align: center;
-  margin: 30px;
+  margin: 30px 30px 5px;
 }
 
 h2.support-layout {
@@ -60,6 +82,7 @@ h2.support-layout {
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.534);
 }
 
+/* Text */
 p.running-text {
   color: rgb(255, 255, 255);
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.534);
@@ -67,6 +90,7 @@ p.running-text {
   margin: 30px;
 }
 
+/* Images */
 img {
   display: flex;
   margin-left: auto;
@@ -75,37 +99,16 @@ img {
 }
 
 img.image-style {
-  width: 360px;
-  height: 640px;
+  width: 360px auto;
+  height: 640px auto;
   object-fit: cover;
   object-position: 50% 50%;
-  display: flex;
-  flex-wrap: nowrap;
-  justify-content: center;
-  margin: 30px auto;
+  margin: 10px auto 15px;
   border-radius: 8px;
   box-shadow: 8px 8px 2px rgba(0, 0, 0, 0.534);
 }
 
-div.centraliza-div {
-  width: 85%;
-  height: 30px auto;
-  display: table;
-  margin: 30px auto;
-  text-align: center;
-  animation: animaCenter 3s forwards;
-}
-
-div.central-content {
-  width: 3px auto;
-  height: 3px auto;
-  display: table;
-  margin: 3px auto;
-  text-align: center;
-  animation: animaCenter 3s forwards;
-}
-
-/* Linkage style */
+/* Links */
 a {
   color: rgb(72, 255, 0);
   text-decoration: none;
