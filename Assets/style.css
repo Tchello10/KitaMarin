@@ -1,13 +1,23 @@
 /* Animações */
 @keyframes animaCenter {
-  from {
+  0% {
+    width: 5%;
+    height: 2px;
     border-style: solid;
     border-width: 2px;
     border-color: white;
     border-radius: 5px;
     background-color: rgb(255, 255, 255);
   }
-  to {
+
+  50% {
+    width: 50%;
+    height: 2px;
+  }
+
+  100% {
+    width: 50%;
+    height: auto;
     border-style: solid;
     border-width: 2px;
     border-color: rgba(255, 255, 255, 0.425);
@@ -15,6 +25,20 @@
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     border-radius: 18px;
+  }
+}
+
+@keyframes animaImagens {
+  0% {
+    opacity: 0%;
+  }
+
+  60% {
+    opacity: 0%;
+  }
+
+  100% {
+    opacity: 100%;
   }
 }
 
@@ -33,17 +57,13 @@ body {
 
 /* Divs */
 div.centraliza-div {
-  width: 75%;
-  height: 30px auto;
-  display: table;
+  display: flex;
   margin: 30px auto;
-  text-align: center;
-  animation: animaCenter 3s forwards;
+  flex-wrap: wrap;
+  animation: animaCenter 2s forwards;
 }
 
 div.central-content {
-  width: 50%;
-  height: auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -72,6 +92,7 @@ h2.main-layout {
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.534);
   text-align: center;
   margin: 30px 30px 5px;
+  animation: animaImagens 3s forwards;
 }
 
 h2.support-layout {
@@ -86,8 +107,9 @@ h2.support-layout {
 p.running-text {
   color: rgb(255, 255, 255);
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.534);
-  text-align: left;
+  text-align: center;
   margin: 30px;
+  animation: animaImagens 3s forwards;
 }
 
 /* Images */
@@ -106,6 +128,7 @@ img.image-style {
   margin: 10px auto 15px;
   border-radius: 8px;
   box-shadow: 8px 8px 2px rgba(0, 0, 0, 0.534);
+  animation: animaImagens 3s forwards;
 }
 
 /* Links */
