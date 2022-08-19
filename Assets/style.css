@@ -1,7 +1,7 @@
 /* Animações */
 @keyframes animaCenter {
   0% {
-    width: 5%;
+    width: 0;
     height: 2px;
     border-style: solid;
     border-width: 2px;
@@ -13,6 +13,10 @@
   50% {
     width: 50%;
     height: 2px;
+  }
+
+  75% {
+    height: 185px;
   }
 
   100% {
@@ -33,7 +37,7 @@
     opacity: 0%;
   }
 
-  60% {
+  90% {
     opacity: 0%;
   }
 
@@ -58,18 +62,41 @@ body {
 /* Divs */
 div.centraliza-div {
   display: flex;
+
+  width: 50%;
+  height: auto;
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgba(255, 255, 255, 0.425);
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 18px;
+
   margin: 30px auto;
+  text-align: center;
   flex-wrap: wrap;
-  animation: animaCenter 2s forwards;
+  animation: animaCenter 2s ease-in;
 }
 
 div.central-content {
   display: flex;
-  flex-wrap: wrap;
+
+  width: 50%;
+  height: auto;
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgba(255, 255, 255, 0.425);
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 18px;
+
   justify-content: center;
-  margin: 3px auto;
   text-align: center;
-  animation: animaCenter 3s forwards;
+  flex-wrap: wrap;
+  margin: 3px auto;
+  animation: animaCenter 2s ease-in;
 }
 
 /* Headlines */
@@ -81,17 +108,21 @@ h1 {
 
 h1.main-layout {
   font-size: 40px;
-  color: rgb(72, 255, 0);
+  color: rgb(255, 255, 255);
   font-family: "Courier New", Courier, monospace;
   text-align: center;
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.534);
 }
 
+h2 {
+  text-align: center;
+}
+
 h2.main-layout {
-  color: rgb(255, 255, 255);
+  color: rgb(42, 230, 89);
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.534);
   text-align: center;
-  margin: 30px 30px 5px;
+  margin: 30px 30px;
   animation: animaImagens 3s forwards;
 }
 
@@ -128,7 +159,14 @@ img.image-style {
   margin: 10px auto 15px;
   border-radius: 8px;
   box-shadow: 8px 8px 2px rgba(0, 0, 0, 0.534);
+  transition: transform 0.3s ease-out;
+  transition: box-shadow 0.3s ease-out;
   animation: animaImagens 3s forwards;
+}
+
+img:hover {
+  box-shadow: 13px 13px 5px rgba(0, 0, 0, 0.315);
+  transform: translate(-5px, -5px);
 }
 
 /* Links */
@@ -140,6 +178,10 @@ a {
 a:visited {
   color: #c822ac;
   text-decoration: none;
+}
+
+a:hover {
+  color: white;
 }
 
 /* Responsiveness */
