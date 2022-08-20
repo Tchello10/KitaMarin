@@ -73,10 +73,17 @@ div.centraliza-div {
   -webkit-backdrop-filter: blur(10px);
   border-radius: 18px;
 
+  justify-content: center;
   margin: 30px auto;
   text-align: center;
   flex-wrap: wrap;
+  transition: box-shadow 0.3s ease-out;
   animation: animaCenter 2s ease-in;
+}
+
+.centraliza-div:hover {
+  backdrop-filter: blur(15px);
+  box-shadow: 8px 8px 4px rgba(0, 0, 0, 0.534);
 }
 
 div.central-content {
@@ -88,7 +95,6 @@ div.central-content {
   border-width: 2px;
   border-color: rgba(255, 255, 255, 0.425);
   background-color: rgba(255, 255, 255, 0.1);
-  box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.534);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   border-radius: 18px;
@@ -97,7 +103,7 @@ div.central-content {
   text-align: center;
   flex-wrap: wrap;
   margin: 3px auto;
-  transition: box-shadow 1s ease-out;
+  transition: box-shadow 0.3s ease-out;
   animation: animaCenter 2s ease-in;
 }
 
@@ -121,15 +127,13 @@ h1.main-layout {
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.534);
 }
 
-h2 {
-  text-align: center;
-}
-
 h2.main-layout {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 30px;
   color: #2ae659;
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.534);
   text-align: center;
-  margin: 30px 30px;
+  margin: 30px 30px 15px;
   animation: animaImagens 3s forwards;
 }
 
@@ -143,10 +147,13 @@ h2.support-layout {
 
 /* Text */
 p.running-text {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  font-weight: normal;
   color: rgb(255, 255, 255);
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.534);
   text-align: center;
-  margin: 30px;
+  margin: 20px;
   animation: animaImagens 3s forwards;
 }
 
