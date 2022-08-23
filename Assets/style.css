@@ -78,7 +78,6 @@ div.centraliza-div {
   text-align: center;
   flex-wrap: wrap;
   transition: box-shadow 0.3s ease-out;
-  animation: animaCenter 2s ease-in;
 }
 
 .centraliza-div:hover {
@@ -104,7 +103,6 @@ div.central-content {
   flex-wrap: wrap;
   margin: 3px auto;
   transition: box-shadow 0.3s ease-out;
-  animation: animaCenter 2s ease-in;
 }
 
 .central-content:hover {
@@ -134,7 +132,6 @@ h2.main-layout {
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.534);
   text-align: center;
   margin: 30px 30px 15px;
-  animation: animaImagens 3s forwards;
 }
 
 h2.support-layout {
@@ -154,7 +151,6 @@ p.running-text {
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.534);
   text-align: center;
   margin: 20px;
-  animation: animaImagens 3s forwards;
 }
 
 /* Images */
@@ -172,10 +168,9 @@ img.image-style {
   object-position: 50% 50%;
   margin: 10px auto 15px;
   border-radius: 8px;
-  box-shadow: 8px 8px 2px rgba(0, 0, 0, 0.534);
+  box-shadow: 5px 5px 1px rgba(0, 0, 0, 0.534);
   transition: transform 0.3s ease-out;
   transition: box-shadow 0.3s ease-out;
-  animation: animaImagens 3s ease-out;
 }
 
 img:hover {
